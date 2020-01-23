@@ -5,7 +5,7 @@ public class Circulo_GAA extends FiguraGeometrica_GAA {
 	
 	public Circulo_GAA(double r, String tipoFigura) {
 		super(tipoFigura);
-		radio = r;
+		radio = Math.abs(r);
 	}
 
 	@Override
